@@ -1,5 +1,4 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaSitemap, FaUser } from "react-icons/fa";
+import { FaMobile, FaGlobe, FaUser } from "react-icons/fa";
 
 // Features Data
 export const featuresData = [
@@ -7,7 +6,7 @@ export const featuresData = [
     id: 2,
     icon: <FaUser />,
     title: " User-centric Interfaces",
-    des: " I design visually appealing, intuitive layouts that resonate with your audience. My expertise in HTML, CSS, and React ensures a seamless user experience.",
+    des: " I design visually appealing, intuitive layouts that resonate with your audience. My expertise in web development ensures a seamless user experience.",
   },
 
   {

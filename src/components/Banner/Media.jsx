@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaWhatsapp, FaInstagram } from "react-icons/fa";
+import {  FaLinkedinIn, FaReact, FaWhatsapp, FaInstagram } from "react-icons/fa";
 import { SiTailwindcss, SiJavascript, SiChakraui } from "react-icons/si";
 const Media = () => {
   return (
