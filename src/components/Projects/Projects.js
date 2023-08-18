@@ -5,6 +5,7 @@ import ProjectOne from "../../assets/images/Projects/ProjectOne.png";
 import ProjectTwo from "../../assets/images/Projects/ProjectTwo.png";
 import ProjectThree from "../../assets/images/Projects/ProjectThree.png";
 import ProjectFour from "../../assets/images/Projects/ProjectFour.png";
+import ProjectFive from "../../assets/images/Projects/ProjectFive.png";
 
 const Projects = () => {
   return (
@@ -25,7 +26,7 @@ const Projects = () => {
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={ProjectOne}
           githubLink="https://github.com/alagbealimbaba/Landing-Page"
-          deployedLink="https://sparkling-hamster-8cc6b8.netlify.app/#"
+          deployedLink="https://zx3-login-form.netlify.app/"
         />
         <ProjectCard
           title="ZEN Gaming Community"
@@ -33,7 +34,7 @@ const Projects = () => {
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={ProjectTwo}
           githubLink="https://github.com/alagbealimbaba/zen-community"
-          deployedLink="https://monumental-pithivier-32e0d1.netlify.app/"
+          deployedLink="https://zengamecom.netlify.app/"
         />
 
         <ProjectCard
@@ -51,6 +52,14 @@ const Projects = () => {
           src={ProjectFour}
           githubLink="https://github.com/alagbealimbaba/my-portfolio"
           deployedLink="https://your-deployed-site-url.com"
+        />
+        <ProjectCard
+          title="Random Advice App"
+          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          src={ProjectFive}
+          githubLink="https://github.com/alagbealimbaba/Advice-App"
+          deployedLink="https://advice-app1221.netlify.app/"
         />
       </div>
     </section>

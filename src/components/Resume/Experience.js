@@ -16,22 +16,16 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Lorem ipsum dolor sit amet. Sed iusto labore ut voluptatum omnis est reprehenderit soluta. Et ullam ipsa aut doloribus quae ut dignissimos itaque est aspernatur dolorem ea Quis voluptates"
+            title="Software Engineering Intern"
+            subTitle="HAUT institute of technology (Feb 2023-Apr 2023)"
+            result="INTERNATIONAL"
+            des="I worked as a front-end developer on the team using react with tailwind CSS. . the project was to create a train ticket for the lagos-ibadan expressway. "
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="Lorem ipsum dolor sit amet. Sed iusto labore ut voluptatum omnis est reprehenderit soluta. Et ullam ipsa aut doloribus quae ut dignissimos itaque est aspernatur dolorem ea Quis voluptates"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="Lorem ipsum dolor sit amet. Sed iusto labore ut voluptatum omnis est reprehenderit soluta. Et ullam ipsa aut doloribus quae ut dignissimos itaque est aspernatur dolorem ea Quis voluptates"
+            title="IT Intern"
+            subTitle="WEMA bank head office(9th August 2023- 31st August 2023)"
+            result="NIGERIA"
+            des="I worked with experienced individuals on the innovation team. I was made to conduct a survey about a new feature I introduced on their banking app. After that, designs were made with figma and I was asked to develop the front-end aspect of te design using react with tailwind CSS. "
           />
         </div>
       </div>

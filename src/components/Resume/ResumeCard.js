@@ -20,7 +20,7 @@ const ResumeCard = ({ title, subTitle, result, des }) => {
             </p>
           </div>
           <div>
-            <p className="w-20 h-10 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
+            <p className="w-36 h-10 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center  text-sm font-medium">
               {result}
             </p>
           </div>
