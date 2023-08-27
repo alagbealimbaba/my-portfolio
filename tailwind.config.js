@@ -6,7 +6,7 @@ module.exports = {
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
         titleFont: ["Montserrat", "sans-serif"],
-        catchyFont: ["'Fredoka One'", "cursive"], // Choosing a bold and pleasing font
+        catchyFont: ["'Fredoka One'", "cursive"], 
       },
       colors: {
         bodyColor: "#0c0f16",
@@ -16,7 +16,7 @@ module.exports = {
         whiteText: "#ffffff",
       },
       boxShadow: {
-        shadowOne: "10px 10px 19px #0e1010, -10px -10px 19px #292d30", // Adjusted box shadow colors
+        shadowOne: "10px 10px 19px #0e1010, -10px -10px 19px #292d30", 
       },
     },
   },

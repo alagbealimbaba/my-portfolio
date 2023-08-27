@@ -12,13 +12,16 @@ const LeftBanner = () => {
   });
   return (
     <div className="w-1/2 lgl:w-1/2 flex flex-col gap-20">
-      <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+      <div className="flex flex-col gap-5 items-center sm:items-left text-center sm:text-left ">
+        <h4 className="text-lg font-normal hidden md:block">
+          WELCOME TO MY WORLD
+        </h4>
+
+        <h1 className="text-3xl sm:text-6xl w-[300px] sm:w-full font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designColor capitalize">Alim Alagbe </span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-2xl sm:text-4xl font-bold text-white">
           a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
@@ -26,7 +29,7 @@ const LeftBanner = () => {
             cursorColor="#0eb3e6"
           />
         </h2>
-        <p className="text-base font-catchyFont leading-6 tracking-wide">
+        <p className="text-base font-catchyFont leading-6 tracking-wide w-[300px] sm:w-full">
           As a seasoned front-end developer specializing in React, I harness the
           power of animation as a third dimension, seamlessly weaving it into
           the fabric of every interaction. With a purpose-driven approach, I
@@ -35,7 +38,6 @@ const LeftBanner = () => {
           engagement.
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );

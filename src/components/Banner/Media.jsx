@@ -10,7 +10,7 @@ const Media = () => {
   </h2>
   <div className="flex gap-4">
     <a
-      href="https://wa.me/+2347069935849"  // Replace with your WhatsApp link
+      href="https://wa.me/+2347069935849"  
       className="bannerIcon"
       target="_blank"
       rel="noopener noreferrer"
@@ -18,7 +18,7 @@ const Media = () => {
       <FaWhatsapp />
     </a>
     <a
-      href="https://www.instagram.com/aitzcaptain/"  // Replace with your Instagram link
+      href="https://www.instagram.com/aitzcaptain/"  
       className="bannerIcon"
       target="_blank"
       rel="noopener noreferrer"
@@ -26,7 +26,7 @@ const Media = () => {
       <FaInstagram />
     </a>
     <a
-      href="www.linkedin.com/in/alagbe-alim-5b5a9824b"  // Replace with your LinkedIn link
+      href="www.linkedin.com/in/alagbe-alim-5b5a9824b"  
       className="bannerIcon"
       target="_blank"
       rel="noopener noreferrer"
